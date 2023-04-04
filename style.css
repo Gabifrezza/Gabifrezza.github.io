@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{margin: 0;
+padding: 0;}
+
+html, body{
+    height: 100%;}
+
+body{
+    background: linear-gradient(354deg, rgba(7,228,241,0.7399334733893557) 9%, rgba(249,4,169,0.5550595238095238) 65%);
+    color: white;
+    font-family: 'Raleway', sans-serif;}
+
+.avatar{    
+    width: 80px;
+    border-radius:50px ;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;}
+
+h1{
+    font-family:'Architects Daughter','cursive' ;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom:2px ;}
+
+h3{
+    font-size: 15px;}
+
+.profile{
+    text-align: center;
+    margin:30px;}
+
+.social img{
+    width: 33px;}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px 0;}
+
+.links-lists {
+    list-style: none;}
+
+.links-lists li {
+    margin: 10px 20px;}
+
+.links-lists li a {
+    background-color: white;
+    padding:15px 20px ;
+    display: block;
+    border-radius: 4px;
+    text-decoration: none;
+    color:rgb(250, 4, 143);
+    font-weight: bold;}
+
+.links-lists li a span{
+    color: rgba(3, 3, 3, 0.841);
+    display: block;
+    margin-top: 10PX;}
+
+h2{
+    margin: 0px 10px 8px 20px;
+    letter-spacing: 2px;}
+
